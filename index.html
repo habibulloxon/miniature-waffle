@@ -1,176 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/short-logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/short-logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style/main.css" />
     <title>everest</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container header__container">
-            <a href="/">
-                <img src="images/logo.svg" alt="logo" class="header__logo">
-            </a>
-            <nav class="header__navbar">
-                <ul class="header__navbar-list">
-                    <li class="header__navbar-list--item">
-                        <a class="navbar-item__link" href="#">home</a>
-                    </li>
-                    <li class="header__navbar-list--item">
-                        <a class="navbar-item__link" href="#">faq</a>
-                    </li>
-                    <li class="header__navbar-list--item">
-                        <a class="navbar-item__link" href="#">about us</a>
-                    </li>
-                    <li class="header__navbar-list--item">
-                        <a class="navbar-item__link" href="#">contact us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container header__container">
+        <a href="/">
+          <img src="images/logo.svg" alt="logo" class="header__logo" />
+        </a>
+        <nav class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-list--item">
+              <a class="navbar-item__link" href="#">home</a>
+            </li>
+            <li class="header__navbar-list--item">
+              <a class="navbar-item__link" href="#">faq</a>
+            </li>
+            <li class="header__navbar-list--item">
+              <a class="navbar-item__link" href="#">about us</a>
+            </li>
+            <li class="header__navbar-list--item">
+              <a class="navbar-item__link" href="#">contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
-        <section class="hero">
-            <div class="container hero__container">
-                <div>
-                    <h1 class="visually-hidden">
-                        Everest web deals
-                    </h1>
-                    <p class="hero__title">Discover Ways To<br/> Save Your Time With<br/> Our Addons</p>
-                    <div class="hero__line"></div>
-                    <p class="hero__text">
-                        Everest Web Deals LLC designed many<br/> addons which you can download through<br/> the Google Marketplace.
-                    </p>
-                    <button class="hero__btn">learn more</button>
-                </div>
-                <div class="hero__image--wrapper">
-                    <img class="hero__image" src="./images/example.jpg" alt="hero-image">
-                </div>
+      <section class="hero">
+        <div class="container hero__container">
+          <div>
+            <h1 class="visually-hidden">Everest web deals</h1>
+            <p class="hero__title">
+              Discover Ways To<br />
+              Save Your Time With<br />
+              Our Addons
+            </p>
+            <div class="hero__line"></div>
+            <p class="hero__text">
+              Everest Web Deals LLC designed many<br />
+              addons which you can download through<br />
+              the Google Marketplace.
+            </p>
+            <button class="hero__btn">learn more</button>
+          </div>
+          <div class="hero__image--wrapper">
+            <img
+              class="hero__image"
+              src="./images/example.jpg"
+              alt="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container products__container">
+          <ul class="products__list">
+            <li class="products__item">
+              <img
+                src="./images/card-icon-1.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">EWD Mail Merge</h3>
+              <p class="products__item--text">
+                Our Mail Merge allows you to easily send personalized<br />emails
+                using Google Slides™, Docs™, and, Google<br />Spreadsheet™.
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+            <li class="products__item">
+              <img
+                src="./images/card-icon-2.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">Form Choice Limit</h3>
+              <p class="products__item--text">
+                Google Form Choice Limit | Choice Remove | Choice<br />Eliminate
+                lets you add limits to choice options to Google<br />Form
+                Multiple Choice, Checkboxes and Dropdowns
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+            <li class="products__item">
+              <img
+                src="./images/card-icon-3.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">Function By Color</h3>
+              <p class="products__item--text">
+                Google Form Choice Limit | Choice Remove | Choice<br />Eliminate
+                lets you add limits to choice options to Google<br />Form
+                Multiple Choice, Checkboxes and Dropdowns
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+            <li class="products__item">
+              <img
+                src="./images/card-icon-4.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">Form Response Limit</h3>
+              <p class="products__item--text">
+                Our Mail Merge allows you to easily send personalized<br />emails
+                using Google Slides™, Docs™, and, Google<br />Spreadsheet™.
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+            <li class="products__item">
+              <img
+                src="./images/card-icon-5.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">Form Field Limit</h3>
+              <p class="products__item--text">
+                Google Form Choice Limit | Choice Remove | Choice<br />Eliminate
+                lets you add limits to choice options to Google<br />Form
+                Multiple Choice, Checkboxes and Dropdowns
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+            <li class="products__item">
+              <img
+                src="./images/card-icon-6.svg"
+                width="50"
+                height="50"
+                alt="icon"
+                class="products__item--icon"
+              />
+              <h3 class="products__item--title">Document File Generator</h3>
+              <p class="products__item--text">
+                The custom function for Google Sheets™ calculates<br />the sum,
+                count, max, min, average, and other colored cells with the same
+                background and text color.
+              </p>
+              <p class="products__item--subtext">
+                Our app is now available from the Google Workspace Marketplace.
+              </p>
+              <a href="#" class="products__item--link-wrapper">
+                <img
+                  src="./images/card-badge.svg"
+                  alt="badge"
+                  class="products__item--link-image"
+                />
+              </a>
+              <a href="" class="products__item--link-text">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container product__container">
+          <div>
+            <div class="product__title-wrapper">
+              <div class="product__line"></div>
+              <h2 class="product__title">
+                Function By Color<br />
+                for Google Sheets™
+              </h2>
             </div>
-        </section>
-        <section class="products">
-            <div class="container products__container">
-                <ul class="products__list">
-                    <li class="products__item">
-                        <img src="./images/card-icon-1.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            EWD Mail Merge
-                        </h3>
-                        <p class="products__item--text">
-                            Our Mail Merge allows you to easily send personalized<br/>emails using Google Slides™, Docs™, and, Google<br/>Spreadsheet™.
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                    <li class="products__item">
-                        <img src="./images/card-icon-2.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            Form Choice Limit
-                        </h3>
-                        <p class="products__item--text">
-                            Google Form Choice Limit | Choice Remove | Choice<br/>Eliminate lets you add limits to choice options to Google<br/>Form Multiple Choice, Checkboxes and Dropdowns
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                    <li class="products__item">
-                        <img src="./images/card-icon-3.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            Function By Color
-                        </h3>
-                        <p class="products__item--text">
-                            Google Form Choice Limit | Choice Remove | Choice<br/>Eliminate lets you add limits to choice options to Google<br/>Form Multiple Choice, Checkboxes and Dropdowns
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                    <li class="products__item">
-                        <img src="./images/card-icon-4.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            Form Response Limit
-                        </h3>
-                        <p class="products__item--text">
-                            Our Mail Merge allows you to easily send personalized<br/>emails using Google Slides™, Docs™, and, Google<br/>Spreadsheet™.
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                    <li class="products__item">
-                        <img src="./images/card-icon-5.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            Form Field Limit
-                        </h3>
-                        <p class="products__item--text">
-                            Google Form Choice Limit | Choice Remove | Choice<br/>Eliminate lets you add limits to choice options to Google<br/>Form Multiple Choice, Checkboxes and Dropdowns
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                    <li class="products__item">
-                        <img src="./images/card-icon-6.svg" width="50" height="50" alt="icon" class="products__item--icon">
-                        <h3 class="products__item--title">
-                            Document File Generator
-                        </h3>
-                        <p class="products__item--text">
-                            The custom function for Google Sheets™  calculates<br/>the sum, count, max, min, average, and other colored cells with the same background and text color.
-                        </p>
-                        <p class="products__item--subtext">
-                            Our app is now available from the Google Workspace Marketplace.
-                        </p>
-                        <a href="#" class="products__item--link-wrapper">
-                            <img src="./images/card-badge.svg" alt="badge" class="products__item--link-image">
-                        </a>
-                        <a href="" class="products__item--link-text">Learn More</a>
-                    </li>
-                </ul>
+            <p class="product__text">
+              This product will allow you to calculate <br />
+              colored cells that have the same background<br />(Fill color) and
+              text color.
+            </p>
+          </div>
+          <div class="product__img-wrapper">
+            <img
+              src="./images/example-2.jpg"
+              alt="product-img"
+              class="product__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container testimonials__container">
+          <h2 class="testimonials__title">What Customers Says</h2>
+          <ul class="testimonials__list">
+            <li class="testimonials__item">
+              <img
+                class="testimonials__icon"
+                src="./images/quotes.svg"
+                alt="quotes"
+              />
+              <div class="testimonials__text-wrapper">
+                <p class="testimonials__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam mattis id tortor eu feugiat. Duis aliquam nulla ac
+                  lectus ultrices, in placerat lacus pharetra. In nec consequat
+                  ante.
+                </p>
+                <h4 class="testimonials__name">Nathan George</h4>
+                <p class="testimonials__role">President , FlyCast Partners</p>
+              </div>
+            </li>
+            <li class="testimonials__item">
+              <img
+                class="testimonials__icon"
+                src="./images/quotes.svg"
+                alt="quotes"
+              />
+              <div class="testimonials__text-wrapper">
+                <p class="testimonials__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam mattis id tortor eu feugiat. Duis aliquam nulla ac
+                  lectus ultrices, in placerat lacus pharetra. In nec consequat
+                  ante.
+                </p>
+                <h4 class="testimonials__name">Nathan George</h4>
+                <p class="testimonials__role">President , FlyCast Partners</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="container feedback__container">
+            <div class="feedback__wrapper">
+                <h4>
+                    Still Looking For an Answers?  
+                </h4>
+                <button>Let’s talk!</button>
             </div>
-        </section>
-        <section class="product">
-            <div class="container product__container">
-                <div>
-                    <div class="product__title-wrapper">
-                        <div class="product__line"></div>
-                        <h2 class="product__title">
-                            Function By Color<br/> for Google Sheets™
-                        </h2>
-                    </div>
-                    <p class="product__text">
-                        This product will allow you to calculate <br/> colored cells that have the same background<br/>(Fill color) and text color.
-                    </p>
-                </div>
-                <div class="product__img-wrapper">
-                    <img src="./images/example-2.jpg" alt="product-img" class="product__img">
-                </div>
-            </div>
-        </section>
+        </div>
+      </section>
     </main>
-</body>
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__list-1">
+                <h4 class="footer__title">
+                    Our Applications
+                </h4>
+                <div class="footer__list-wrapper-1">
+                    <ul>
+                        <li><a href="">EWD Mail Merge</a></li>
+                        <li><a href="">Form Choice Limit</a></li>
+                        <li><a href="">Function By Colo</a>r</li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Form Response Limit</a></li>
+                        <li><a href="">Form Field Limit</a></li>
+                        <li><a href="">Document File Generator</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__list-1 footer__list-2">
+                <h4 class="footer__title">
+                    Usefull Links
+                </h4>
+                <div class="footer__list-wrapper-1">
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a>r</li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Google Limit Use Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__list-3">
+                <h4>Subscribe</h4>
+                <form action="">
+                    <input type="email" placeholder="Your Email">
+                    <img class="footer__arrow" src="./images/arroe.svg" alt="arrow">
+                </form>
+                <p class="footer__sign">Get latest updates and offers</p>
+            </div>
+        </div>
+    </footer>
+  </body>
 </html>
