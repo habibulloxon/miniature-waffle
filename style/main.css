@@ -476,4 +476,7 @@ footer {
     .footer__list-3{
         display: none;
     }
+    .footer__list-2{
+        margin: 0;
+    }
 }
