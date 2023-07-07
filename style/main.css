@@ -453,6 +453,19 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .testimonials__title{
+        margin-bottom: 30px;
+    }
+    .testimonials__item{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .testimonials__text{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
     .footer__list-3{
         display: none;
     }
