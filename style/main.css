@@ -469,6 +469,10 @@ footer {
         padding: 0;
         margin-bottom: 10px;
     }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+    }
     .footer__list-3{
         display: none;
     }
