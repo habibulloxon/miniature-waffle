@@ -420,6 +420,7 @@ footer {
     .container{
         width: 400px;
         /* border: 1px solid green; */
+        padding: 0 5px;
     }
     .hero__image{
         display: none;
@@ -447,6 +448,10 @@ footer {
     }
     .product__img {
         display: none;
+    }
+    .testimonials__list{
+        display: flex;
+        flex-direction: column;
     }
     .footer__list-3{
         display: none;
