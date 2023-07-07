@@ -479,4 +479,7 @@ footer {
     .footer__list-2{
         margin: 0;
     }
+    .footer__list-wrapper-1 li a {
+        font-size: 12px;
+    }
 }
