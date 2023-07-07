@@ -436,10 +436,13 @@ footer {
         display: none;
     }
 
-
+    .products__container{
+        padding: 0;
+    }
     .products__list {
         grid-template-columns: auto;
         row-gap: 20px;
+        padding: 0;
     }
     .products__item {
         display: block;
